@@ -19,4 +19,4 @@ Generate YARA rules for binary files in the directory `/path/to/files` with cust
 
 * The generated rules will be displayed in the terminal. You can copy and use these rules as needed. Or if you'd prefer it in file form use redirectors such as:
 
-``python main.py -p /path/to/files --author "Your Name" --reference "https://your-reference.com" --date "2023-11-30" --TLP "Amber" --Hashes "hash1,hash2,hash3" > rule.yar`
+`python main.py -p /path/to/files --author "Your Name" --reference "https://your-reference.com" --date "2023-11-30" --TLP "Amber" --Hashes "hash1,hash2,hash3" > rule.yar`
